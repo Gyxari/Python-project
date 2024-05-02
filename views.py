@@ -12,7 +12,7 @@ def profile():
 
 @views.route("/json")
 def get_json():
-    return jsonify({'name': 'Kyksä', 'status': 'Owner'})
+    return jsonify({'name': 'Kyksa', 'Army': 'Tyranids', 'Faction': 'Invaders', 'Score': 0})
 
 @views.route("/data")
 def get_data():
