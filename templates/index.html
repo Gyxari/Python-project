@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compitable" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/index.css')}}">
     <title>Home Page</title>
 </head>
 <body>
-    <div>
-        {% block content %}
-        <h1>
-            Home Page
-        </h1>
-        {%endblock%}
-    </div>
-    <p>
-        Hello, {{ name }}!
-    </p>
-
+    {% block content %}
+        <article>
+            <h1>
+                Project-name
+            </h1>
+        </article>
+        <div class="link">
+            <a href="http://127.0.0.1:8000/crusade"><h2>Crusade</h2></a>
+        </div>
+        
+        <div class="link">
+            <a href="http://127.0.0.1:8000/battle-reports"><h2>Battle Reports</h2></a>
+        </div>
+        
+        <div class="link">
+            <a href="http://127.0.0.1:8000/armies"><h2>Armies</h2></a>
+        </div>
+    {%endblock%}
     <script 
         type="text/javascript" 
         src="{{ url_for('static', filename='index.js')}}">

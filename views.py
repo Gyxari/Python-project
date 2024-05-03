@@ -6,9 +6,17 @@ views=Blueprint(__name__,"views")
 def home():
     return render_template("index.html")
 
-@views.route("/profile")
-def profile():
-    return render_template("profile.html")
+@views.route("/crusade")
+def Crusade():
+    return render_template("crusade.html")
+
+@views.route("/battle-reports")
+def BattleReports():
+    return render_template("battle-reports.html")
+
+@views.route("/armies")
+def Armies():
+    return render_template("Armies.html")
 
 @views.route("/players")
 def get_json():
