@@ -1,1 +1,9 @@
-{"name": "Kyksa", "Army": "Tyranids", "Faction": "Invaders", "Score": 0}
+{
+    "players":[
+        {"name": "Kyksa", "army": "Zerus", "faction": "Invaders", "score": 0},
+        {"name": "Joni", "army": "Iron Warriors", "faction": "Raiders", "score":0},
+        {"name": "Haggis", "army": "Slaanesh Daemnons", "faction": "Invaders", "score":0},
+        {"name": "Hotsku", "army": "Mephrit Dynasty", "faction": "Defenders", "score":0},
+        {"name": "Kokseli", "army": "Luna Wolves", "faction": "Raiders", "score": 0}
+    ]
+}

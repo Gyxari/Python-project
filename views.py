@@ -10,7 +10,7 @@ def home():
 def profile():
     return render_template("profile.html")
 
-@views.route("/json")
+@views.route("/players")
 def get_json():
     return jsonify({'name': 'Kyksa', 'Army': 'Tyranids', 'Faction': 'Invaders', 'Score': 0})
 
